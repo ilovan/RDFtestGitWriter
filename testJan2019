@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:w="http://cwrctc.artsrn.ualberta.ca/#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:w="http://cwrctc.artsrn.ualberta.ca/#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     
     
     <teiHeader>
@@ -15,8 +12,9 @@
             <sourceDesc sameAs="http://www.cwrc.ca">
                 <p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p>
             </sourceDesc>
-        </fileDesc><xenoData>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:time="http://www.w3.org/2006/time#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:cnt="http://www.w3.org/2011/content#">
+        </fileDesc>
+    <xenoData>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:time="http://www.w3.org/2006/time#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
 <rdf:Description rdf:about="https://dev-cwrc-writer.cwrc.ca//editor/documents/null">
 	<cw:mode>0</cw:mode>
 	<cw:allowOverlap>false</cw:allowOverlap>
@@ -25,9 +23,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/4725fcf5-a5c7-4937-82ff-83e13fb238b6"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/title/89fe18dd-7e65-416f-a2a2-994b87fd17a1"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.982Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.146Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.982Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.146Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
 	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
@@ -51,9 +49,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/bc7ede17-8139-42f6-8fdb-f3e4b3805829"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/title/2128dcd4-80cf-49a5-a6ea-35fbd4e731a5"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.983Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.147Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.983Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.147Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
 	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
@@ -77,9 +75,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/2a4e8793-a744-480a-bc4a-aac786ace286"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/note/acc56dc0-63e6-4e0c-aa52-77646e9d7de5"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.984Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.149Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.984Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.149Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#commenting"/>
 	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
@@ -102,9 +100,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/3d6caeb7-6dda-4bc2-822b-673974258eef"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/date/7793d581-4d9e-43cc-bfab-f25b85ed8acd"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.985Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.149Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.985Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.149Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
@@ -130,9 +128,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/f7321bb9-8bcf-40ac-8a74-8a6ee477a03f"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://viaf.org/viaf/13812240/"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.986Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.150Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.986Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.150Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
@@ -157,9 +155,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/293f3efd-5804-4e85-9caf-2fb22c2d8504"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://geonames.org/3143244"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.987Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.150Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.987Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.150Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
@@ -184,9 +182,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/29708e58-4685-4511-8917-37100d7be299"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://viaf.org/viaf/149184655/"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.987Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.987Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
@@ -211,9 +209,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/3a53864b-3107-4b9f-89eb-708b3f3fe374"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/note/209cb9a2-573a-42c3-b176-038da20116f8"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.988Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.988Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#commenting"/>
 	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
@@ -236,9 +234,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/aef1a6a2-323e-40d2-9c75-5bb9edc14a8c"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://viaf.org/viaf/9717152200809314400002/"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.989Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.989Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://cwrc.ca/ns/cw#citing"/>
 	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"nameType":"UniformTitleWork","id":"http://viaf.org/viaf/9717152200809314400002/","uri":"http://viaf.org/viaf/9717152200809314400002/","uriForDisplay":null,"externalLink":"http://viaf.org/viaf/9717152200809314400002/","name":"Green, Abby,. | Forgiven but not forgotten?","repository":"VIAF","originalQueryString":"But "}</cw:cwrcInfo>
@@ -261,9 +259,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/a50d14c1-2937-4abd-ae6c-ee32569c3a0c"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.wikidata.org/entity/Q7639529"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.990Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.990Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.152Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
 	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
@@ -288,9 +286,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/433aa789-62d7-47c1-afe1-09a4fb48dd8b"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/correction/969d5070-86e9-4145-b682-78ac6d4090ac"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.990Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.154Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.990Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.154Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#editing"/>
 	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
@@ -313,9 +311,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/e3032601-eb14-4942-874c-3234b3ef6872"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/correction/5aa8bd37-aff5-4f95-b38b-ab9769f726dd"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.991Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.155Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.991Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.155Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#editing"/>
 	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{}</cw:cwrcInfo>
@@ -338,9 +336,9 @@
 	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
 	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
 	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="undefined"/>
-	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.993Z</oa:annotatedAt>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.156Z</oa:annotatedAt>
 	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
-	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-01-16T17:49:36.993Z</oa:serializedAt>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.156Z</oa:serializedAt>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
 	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#linking"/>
 	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"target":"https://en.wikipedia.org/wiki/Bergen"}</cw:cwrcAttributes>
@@ -357,8 +355,33 @@
 <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="undefined">
 	<rdf:value>xpointer(/TEI/text/body/div/p[2]/ref)</rdf:value>
 	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
-</rdf:Description></rdf:RDF></xenoData>
-    </teiHeader>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/d2313c5b-fe43-4ff4-80bd-8da6d297d702">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/0bab00cc-b79a-42b1-b952-6b2b65f5b0e6"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/keyword/8f0b6dee-783d-4ae9-a114-da6aeb4f46cb"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/9bf415a8-52e8-422f-9d32-d97319339270"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.157Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2019-02-04T19:43:01.157Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#classifying"/>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ana":"http://sparql.cwrc.ca/ontologies/cwrc.html#PersonalName","type":"keyword"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/keyword/8f0b6dee-783d-4ae9-a114-da6aeb4f46cb"><cnt:chars xmlns:cnt="http://www.w3.org/2011/content#">pet name</cnt:chars>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Tag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsText"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/0bab00cc-b79a-42b1-b952-6b2b65f5b0e6">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/9eddafe9-162a-438e-9abb-b6f0742e63e8"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/b581da58-0f40-417e-b513-46563a3b8493"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/b581da58-0f40-417e-b513-46563a3b8493">
+	<rdf:value>xpointer(/TEI/text/body/div/closer/signed/seg)</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description></rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
             <div type="letter">
@@ -374,14 +397,14 @@
                         <date cert="definite" when="1935-10-21">21.10.35</date>
                     </dateline>
                     <salute>Dearest -</salute>
-                </opener><p>I have had no letter from you since I left Stockholm, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday evening, <persName ref="http://viaf.org/viaf/13812240/" cert="definite" type="real">Brynjulf Bull</persName> should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up<note type="citation"><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"/><ref xmlns="http://www.tei-c.org/ns/1.0" target="http://viaf.org/viaf/9717152200809314400002/"/>some citation here, with an embedded <orgName xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/8635148574288624430001/">publisher</orgName></bibl></note>. He had got the <pb n="2"></pb> time of my arrival wrong, and 
+                </opener><p>I have had no letter from you since I left Stockholm, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday evening, <persName ref="http://viaf.org/viaf/13812240/" cert="definite" type="real">Brynjulf Bull</persName> should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up<note type="citation"><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"/><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"></ref><ref xmlns="http://www.tei-c.org/ns/1.0" target="http://viaf.org/viaf/9717152200809314400002/"></ref>some citation here, with an embedded <orgName xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/8635148574288624430001/">publisher</orgName></bibl></bibl></note>. He had got the <pb n="2"></pb> time of my arrival wrong, and 
                     when he had found he had missed me he phoned to every hotel in <placeName ref="http://geonames.org/3143244" cert="definite">Oslo</placeName> till he hit on the right one. He left me at 10, and then I had to do a <title level="j" ref="http://www.wikidata.org/entity/Q7639529" cert="definite">Sunday Referee</title> article.<note type="scholarNote">This is a note with some embedded <title xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/9890151475051400490000/">title</title> and <persName xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/9862148997666959870007/">person</persName> entities.</note> Today my journey lasts from <choice><sic>9</sic><corr>9:00 AM</corr></choice> till <choice><sic>9</sic><corr>9:00</corr></choice> - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at Bergen to the <orgName ref="http://viaf.org/viaf/149184655/" cert="definite">Anglo-Norwegian Society</orgName>. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via <ref target="https://en.wikipedia.org/wiki/Bergen">Bergen</ref>.</p>
                 <pb n="3"></pb>
                 <p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p><p>I am unhappily wondering what you are feeling about me.</p>
                 <closer>
                     <salute>I love you very much -</salute>
                     <signed>
-                        B
+                        B<seg ana="http://sparql.cwrc.ca/ontologies/cwrc.html#PersonalName" type="keyword"><term>pet name</term></seg>
                     </signed>
                 </closer>
             </div>
