@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:w="http://cwrctc.artsrn.ualberta.ca/#">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     
     
     <teiHeader>
@@ -17,587 +17,744 @@
             </sourceDesc>
         </fileDesc>
     <xenoData>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#">
-<rdf:Description rdf:about="https://dev-cwrc-writer.cwrc.ca//editor/documents/null">
-	<cw:mode>0</cw:mode>
-	<cw:allowOverlap>false</cw:allowOverlap>
-</rdf:Description>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/abbd5ecf-3166-4ac4-b23a-d8876a6d8b7b",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:tagging",
-		"oa:identifying"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.065Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.065Z",
-	"serializedBy": "",
-	"hasBody": {
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/persName_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.065Z",
+	"dcterms:issued": "2019-06-06T15:12:42.741Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/persName_20190311111134#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
+			"@type": "dctypes:Text",
+			"format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/persName_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
 		"@id": "http://viaf.org/viaf/13812240/",
-		"@type": [
-			"foaf:Person",
-			"oa:SemanticTag"
-		]
+		"dc:format": "text/html"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/d2a12ab8-6e00-4de3-bcf1-b3d2a4e227ca",
-		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/d2a12ab8-6e00-4de3-bcf1-b3d2a4e227ca",
-			"@type": "dctypes:Text",
-			"format": "text/xml"
-		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/4dc150d1-ab0a-422c-94a2-3053261d9bfe",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/persName)"
-		}
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
 	},
-	"hasCertainty": "cw:definite",
-	"cwrcInfo": {
-		"nameType": "Personal",
-		"id": "http://viaf.org/viaf/13812240/",
-		"uri": "http://viaf.org/viaf/13812240/",
-		"uriForDisplay": null,
-		"externalLink": "http://viaf.org/viaf/13812240/",
-		"name": "Bull, Brynjulf 1906-1993",
-		"repository": "VIAF",
-		"originalQueryString": "Brynjulf Bull"
-	},
-	"cwrcAttributes": {
-		"ref": "http://viaf.org/viaf/13812240/",
-		"cert": "definite",
-		"type": "real"
-	}
+	"oa:hasCertainty": "cwrc:definite"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/dc4f5028-00e4-4431-9783-5653248886cb",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:tagging",
-		"oa:identifying"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/placeName_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.743Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/placeName_20190311111134#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
+			"@type": "dctypes:Text",
+			"format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/placeName_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:Place",
 		"@id": "http://geonames.org/3143244",
-		"@type": [
-			"geo:SpatialThing",
-			"oa:SemanticTag"
-		]
+		"dc:format": "text/html"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/fc51d951-f3e9-454e-a172-ff883fad89f2",
-		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/fc51d951-f3e9-454e-a172-ff883fad89f2",
-			"@type": "dctypes:Text",
-			"format": "text/xml"
-		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/35197fff-e868-40d8-9f92-dbc64194a5d5",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/placeName)"
-		}
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
 	},
-	"hasCertainty": "cw:definite",
-	"cwrcInfo": {
-		"nameType": "place",
-		"id": "http://geonames.org/3143244",
-		"uri": "http://geonames.org/3143244",
-		"uriForDisplay": null,
-		"externalLink": "http://geonames.org/3143244",
-		"name": "Oslo Oslo Norway",
-		"repository": "geonames",
-		"originalQueryString": "Oslo",
-		"description": "capital of a political entity"
-	},
-	"cwrcAttributes": {
-		"ref": "http://geonames.org/3143244",
-		"cert": "definite"
-	}
+	"oa:hasCertainty": "cwrc:definite"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/81b22924-d90c-4b26-9451-1c54928797e9",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:tagging",
-		"oa:identifying"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/orgName_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.744Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/orgName_20190311111134#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
+			"@type": "dctypes:Text",
+			"format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/orgName_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
 		"@id": "http://viaf.org/viaf/149184655/",
-		"@type": [
-			"foaf:Organization",
-			"oa:SemanticTag"
-		]
+		"dc:format": "text/html"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/0fdca662-84d5-4d2f-9617-11c6213bb51d",
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:definite"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
+	},
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/note[2]_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.745Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/note[2]_20190311111134#Target",
 		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/0fdca662-84d5-4d2f-9617-11c6213bb51d",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
 			"@type": "dctypes:Text",
 			"format": "text/xml"
 		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/e68d5d89-4c1d-492d-bcfb-8501e7d374a6",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/orgName)"
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/note[2]_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/note[2]"
 		}
 	},
-	"hasCertainty": "cw:definite",
-	"cwrcInfo": {
-		"nameType": "Corporate",
-		"id": "http://viaf.org/viaf/149184655/",
-		"uri": "http://viaf.org/viaf/149184655/",
-		"uriForDisplay": null,
-		"externalLink": "http://viaf.org/viaf/149184655/",
-		"name": "Anglo-Norwegian Collaboration",
-		"repository": "VIAF",
-		"originalQueryString": "Anglo-Norwegian"
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/xml",
+		"rdf:value": "<note type=\"scholarNote\">This is a note with some embedded <title xmlns=\"http://www.tei-c.org/ns/1.0\" ref=\"http://viaf.org/viaf/9890151475051400490000/\">title</title> and <persName xmlns=\"http://www.tei-c.org/ns/1.0\" ref=\"http://viaf.org/viaf/9862148997666959870007/\">person</persName> entities.</note>"
 	},
-	"cwrcAttributes": {
-		"ref": "http://viaf.org/viaf/149184655/",
-		"cert": "definite"
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
 	}
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/6e0552fb-12cc-421f-bfc7-0c711a18b910",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:commenting"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
-		"@id": "http://id.cwrc.ca/note/209cb9a2-573a-42c3-b176-038da20116f8",
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/note_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.745Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
 		"@type": [
-			"bibo:Note",
-			"oa:SemanticTag"
-		]
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/d468413a-c74a-4d9b-b71f-dbb269b02070",
+	"oa:motivatedBy": "cwrc:citing",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/note_20190311111134#Target",
 		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/d468413a-c74a-4d9b-b71f-dbb269b02070",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
 			"@type": "dctypes:Text",
 			"format": "text/xml"
 		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/16449625-b657-4324-af7d-6be560848eac",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/note[2])"
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/note_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/note"
 		}
 	},
-	"cwrcInfo": {},
-	"cwrcAttributes": {
-		"type": "scholarNote"
+	"oa:hasBody": [
+		{
+			"@type": "cito:Citation",
+			"dc:format": "text/xml",
+			"rdf:value": "<note type=\"citation\"><bibl><ref target=\"http://viaf.org/viaf/9717152200809314400002/\"></ref><bibl><bibl><ref target=\"http://viaf.org/viaf/9717152200809314400002/\"></ref><bibl><ref target=\"http://viaf.org/viaf/9717152200809314400002/\"></ref>some citation here, with an embedded <orgName xmlns=\"http://www.tei-c.org/ns/1.0\" ref=\"http://viaf.org/viaf/8635148574288624430001/\">publisher</orgName></bibl></bibl></bibl></bibl></note>"
+		},
+		{
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/note_20190311111134#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitationEvent": "cito:cites",
+			"cito:hasCitingEntity": "http://viaf.org/viaf/9717152200809314400002/"
+		}
+	],
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
 	}
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/37a41c59-e9a1-4d97-bd28-a65e9bfc90bb",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"cw:citing"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
-		"@id": "http://viaf.org/viaf/9717152200809314400002/",
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/title_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.746Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
 		"@type": [
-			"dcterms:BibliographicResource",
-			"oa:SemanticTag"
-		]
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/460ac720-ec73-44e3-a388-a2067c165280",
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/title_20190311111134#Target",
 		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/460ac720-ec73-44e3-a388-a2067c165280",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
 			"@type": "dctypes:Text",
 			"format": "text/xml"
 		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/d9b97ab8-969b-4be3-9a47-1ed93a9340f2",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/note)"
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/title_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/title"
 		}
 	},
-	"cwrcInfo": {
-		"nameType": "UniformTitleWork",
-		"id": "http://viaf.org/viaf/9717152200809314400002/",
-		"uri": "http://viaf.org/viaf/9717152200809314400002/",
-		"uriForDisplay": null,
-		"externalLink": "http://viaf.org/viaf/9717152200809314400002/",
-		"name": "Green, Abby,. | Forgiven but not forgotten?",
-		"repository": "VIAF",
-		"originalQueryString": "But "
-	},
-	"cwrcAttributes": {
-		"ref": "http://viaf.org/viaf/9717152200809314400002/",
-		"type": "citation"
-	}
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/1f599eb3-7097-4d47-9752-65b23dacf417",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:identifying"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
-		},
-		"name": ""
-	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
+	"oa:hasBody": {
+		"@type": "bf:title",
 		"@id": "http://www.wikidata.org/entity/Q7639529",
-		"@type": [
-			"dcterms:BibliographicResource",
-			"dcterms:title",
-			"oa:SemanticTag"
-		],
-		"pubType": "j"
+		"dc:format": "text/html"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/61f53529-4f5b-454c-b692-f0644e1e0efb",
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:definite"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
+	},
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/choice_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.746Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
+	},
+	"oa:motivatedBy": "oa:editing",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/choice_20190311111134#Target",
 		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/61f53529-4f5b-454c-b692-f0644e1e0efb",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
 			"@type": "dctypes:Text",
 			"format": "text/xml"
 		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/c713d939-c7e5-4a83-a028-d9ce89c7f383",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/title)"
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/choice_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/choice"
 		}
 	},
-	"hasCertainty": "cw:definite",
-	"cwrcInfo": {
-		"nameType": "unknown",
-		"id": "http://www.wikidata.org/entity/Q7639529",
-		"uriForDisplay": "https://www.wikidata.org/entity/Q7639529",
-		"uri": "http://www.wikidata.org/entity/Q7639529",
-		"name": "Sunday Referee",
-		"repository": "wikidata",
-		"originalQueryString": "Sunday Referee"
+	"oa:hasBody": {
+		"@type": "fabio:Correction"
 	},
-	"cwrcAttributes": {
-		"level": "j",
-		"ref": "http://www.wikidata.org/entity/Q7639529",
-		"cert": "definite"
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
 	}
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/00aa30cc-fda9-40c0-b728-0259c841eb83",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:editing"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
-		"@id": "http://id.cwrc.ca/correction/969d5070-86e9-4145-b682-78ac6d4090ac",
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[4]/seg_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.746Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
 		"@type": [
-			"cnt:ContentAsText",
-			"oa:SemanticTag"
+			"cwrc:NaturalPerson",
+			"schema:Person"
 		],
-		"cnt:chars": "9:00 AM"
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/8015390e-6995-439d-8f96-6a157fbd245a",
+	"oa:motivatedBy": "oa:classifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[4]/seg_20190311111134#Target",
 		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/8015390e-6995-439d-8f96-6a157fbd245a",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
 			"@type": "dctypes:Text",
 			"format": "text/xml"
 		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/4cc98846-2d51-4dac-9c69-491c70bd2fef",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/choice)"
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[4]/seg_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/seg"
 		}
 	},
-	"cwrcInfo": {},
-	"cwrcAttributes": {}
+	"oa:hasBody": {
+		"@type": "fabio:ControlledVocabulary",
+		"dc:format": "text/xml",
+		"rdf:value": "<seg ana=\"http://keywordURL.com\" type=\"keyword\"><term>keyword_here</term></seg>"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"skos:altLabel": "keyword_here"
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/72a10654-6974-493d-bb07-7a7d75fd6710",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:editing"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
-		"@id": "http://id.cwrc.ca/correction/5aa8bd37-aff5-4f95-b38b-ab9769f726dd",
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/ref_20190311111134",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-03-11T17:11:34.066Z",
+	"dcterms:issued": "2019-06-06T15:12:42.747Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
 		"@type": [
-			"cnt:ContentAsText",
-			"oa:SemanticTag"
+			"cwrc:NaturalPerson",
+			"schema:Person"
 		],
-		"cnt:chars": "9:00"
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/51f77898-44eb-4855-a3c5-05e4d361c823",
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/ref_20190311111134#Target",
 		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/51f77898-44eb-4855-a3c5-05e4d361c823",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
 			"@type": "dctypes:Text",
 			"format": "text/xml"
 		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/e705444a-d209-4d14-9df2-67ab62267b20",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/choice[2])"
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/p[2]/ref_20190311111134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[2]/ref"
 		}
 	},
-	"cwrcInfo": {},
-	"cwrcAttributes": {}
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/ad834e66-50e4-4da1-8935-77ea27a76950",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:commenting"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
-		},
-		"name": ""
+	"oa:hasBody": {
+		"@id": "https://en.wikipedia.org/wiki/Bergen",
+		"@type": "cnt:ContentAsText"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
-		"@id": "http://id.cwrc.ca/note/9c1f2e1d-3e6b-4c61-9d43-63dd8064b3b2",
-		"@type": [
-			"bibo:Note",
-			"oa:SemanticTag"
-		]
-	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/5be91a8e-dfe8-4b1b-b5ab-6be29942a1f1",
-		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/5be91a8e-dfe8-4b1b-b5ab-6be29942a1f1",
-			"@type": "dctypes:Text",
-			"format": "text/xml"
-		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/76ef99e5-bd82-4aa4-a60f-94d870147401",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/opener/note)"
-		}
-	},
-	"cwrcInfo": {},
-	"cwrcAttributes": {
-		"type": "researchNote"
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
 	}
 }
 ]]></rdf:Description>
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
 {
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/99f68500-c79c-4c6c-af3e-ab65d3f86de2",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:classifying"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
+	"@context": {
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
 		},
-		"name": ""
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
-		"@id": "http://id.cwrc.ca/keyword/161d45e8-89b2-46e2-8e31-1257667274c5",
+	"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/opener/dateline/date_20190606090721",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2019-06-06T15:07:21.443Z",
+	"dcterms:issued": "2019-06-06T15:12:42.747Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/ilovan",
 		"@type": [
-			"oa:Tag",
-			"cnt:ContentAsText",
-			"skos:Concept",
-			"oa:SemanticTag"
+			"cwrc:NaturalPerson",
+			"schema:Person"
 		],
-		"cnt:chars": "keyword_here"
+		"cwrc:hasName": "Mihaela Ilovan",
+		"foaf:nick": "ilovan"
 	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/9f2c86c7-f9b4-4883-8676-5d23730fa994",
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/opener/dateline/date_20190606090721#Target",
 		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/9f2c86c7-f9b4-4883-8676-5d23730fa994",
+		"oa:hasSource": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019",
 			"@type": "dctypes:Text",
 			"format": "text/xml"
 		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/33bd8a11-2491-41c3-8f88-94aa02c7a518",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[4]/seg)"
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/ilovan/RDFtestGitWriter/blob/master/testJan2019?TEI/text/body/div/opener/dateline/date_20190606090721#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/opener/dateline/date"
 		}
 	},
-	"cwrcInfo": {},
-	"cwrcAttributes": {
-		"ana": "http://keywordURL.com",
-		"type": "keyword"
-	}
-}
-]]></rdf:Description>
-<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
-{
-	"@context": "http://www.w3.org/ns/oa/oa.ttl",
-	"@id": "http://id.cwrc.ca/annotation/7dbb2d98-e59e-4bb1-8da9-519d676d3eb7",
-	"@type": "oa:Annotation",
-	"motivatedBy": [
-		"oa:linking"
-	],
-	"annotatedAt": "2019-03-11T17:11:34.066Z",
-	"annotatedBy": {
-		"@id": "http://id.cwrc.ca/user/0e91524f-a5b2-4dad-83cb-3b70adf1c131",
-		"@type": "foaf:Person",
-		"mbox": {
-			"@id": ""
-		},
-		"name": ""
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1935-10-21"
 	},
-	"serializedAt": "2019-03-11T17:11:34.066Z",
-	"serializedBy": "",
-	"hasBody": {
-		"@id": "http://id.cwrc.ca/link/0bf9199f-5d11-49ec-83c3-fe5055b5c636",
-		"@type": [
-			"cnt:ContentAsText",
-			"oa:SemanticTag"
-		]
-	},
-	"hasTarget": {
-		"@id": "http://id.cwrc.ca/doc/dcc488d4-5537-4a3b-b969-39fcee3b461f",
-		"@type": "oa:SpecificResource",
-		"hasSource": {
-			"@id": "http://id.cwrc.ca/doc/dcc488d4-5537-4a3b-b969-39fcee3b461f",
-			"@type": "dctypes:Text",
-			"format": "text/xml"
-		},
-		"hasSelector": {
-			"@id": "http://id.cwrc.ca/selector/81cd721f-8dde-4746-9e6f-b8b4889a0add",
-			"@type": "oa:FragmentSelector",
-			"dcterms:conformsTo": "http://tools.ietf.org/rfc/rfc3023",
-			"rdf:value": "xpointer(/TEI/text/body/div/p[2]/ref)"
-		}
-	},
-	"cwrcAttributes": {
-		"target": "https://en.wikipedia.org/wiki/Bergen"
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
 	}
 }
 ]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
@@ -609,16 +766,15 @@
                     <title>Sample Letter - Bertrand Russell to Patricia Spence - October 21, 1935</title>
                 </head>
                 <opener>
-                    <note type="researchNote">
-                        <p xmlns="http://www.tei-c.org/ns/1.0">Bad writing due to shaky train</p><p xmlns="http://www.tei-c.org/ns/1.0">In train</p><p xmlns="http://www.tei-c.org/ns/1.0">
-                            Oslo to Bergen</p>
-                    </note>
+                    <note> <p xmlns="http://www.tei-c.org/ns/1.0">Bad writing due to shaky train</p>
+<p xmlns="http://www.tei-c.org/ns/1.0">In train</p>
+<p xmlns="http://www.tei-c.org/ns/1.0">Oslo to Bergen</p> </note>
                     <dateline>
                         <date cert="definite" when="1935-10-21">21.10.35</date>
                     </dateline>
                     <salute>Dearest -</salute>
-                </opener><p>I have had no letter from you since I left Stockholm, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday evening, <persName ref="http://viaf.org/viaf/13812240/" cert="definite" type="real">Brynjulf Bull</persName> should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up<note type="citation"><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"/><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"></ref><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"></ref>some citation here, with an embedded <orgName xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/8635148574288624430001/">publisher</orgName></bibl></bibl></bibl></note>. He had got the <pb n="2"></pb> time of my arrival wrong, and 
-                    when he had found he had missed me he phoned to every hotel in <placeName ref="http://geonames.org/3143244" cert="definite">Oslo</placeName> till he hit on the right one. He left me at 10, and then I had to do a <title level="j" ref="http://www.wikidata.org/entity/Q7639529" cert="definite">Sunday Referee</title> article.<note type="scholarNote">This is a note with some embedded <title xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/9890151475051400490000/">title</title> and <persName xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/9862148997666959870007/">person</persName> entities.</note> Today my journey lasts from <choice><sic>9</sic><corr>9:00 AM</corr></choice> till <choice><sic>9</sic><corr>9:00</corr></choice> - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at Bergen to the <orgName ref="http://viaf.org/viaf/149184655/" cert="definite">Anglo-Norwegian Society</orgName>. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via <ref target="https://en.wikipedia.org/wiki/Bergen">Bergen</ref>.</p>
+                </opener><p>I have had no letter from you since I left Stockholm, but I had a nice one from John in an envelope you had sent him. I had sent him one addressed to Copenhagen but he hadn't used it.</p><p>When I reached Oslo yesterday evening, <persName ref="http://viaf.org/viaf/13812240/" cert="definite" type="real">Brynjulf Bull</persName> should have been there to meet me, but wasn't. He is not on the telephone, so I took a taxi to his address, which turned out to be a students' club with no one about on Sundays, so I went to a hotel feeling rather non-plussed. But presently he turned up<note type="citation"><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"/><bibl><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"></ref><bibl><ref target="http://viaf.org/viaf/9717152200809314400002/"></ref>some citation here, with an embedded <orgName xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/8635148574288624430001/">publisher</orgName></bibl></bibl></bibl></bibl></note>. He had got the <pb n="2"></pb> time of my arrival wrong, and 
+                    when he had found he had missed me he phoned to every hotel in <placeName ref="http://geonames.org/3143244" cert="definite">Oslo</placeName> till he hit on the right one. He left me at 10, and then I had to do a <title level="j" ref="http://www.wikidata.org/entity/Q7639529" cert="definite">Sunday Referee</title> article.<note type="scholarNote">This is a note with some embedded <title xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/9890151475051400490000/">title</title> and <persName xmlns="http://www.tei-c.org/ns/1.0" ref="http://viaf.org/viaf/9862148997666959870007/">person</persName> entities.</note> Today my journey lasts from <choice><sic>9</sic><corr>9:00 AM</corr></choice> till <choice>9</choice> - fortunately one of the most beautiful railway journeys in the world. Tomorrow I lecture at Bergen to the <orgName ref="http://viaf.org/viaf/149184655/" cert="definite">Anglo-Norwegian Society</orgName>. Next day I go back to Oslo, lecture there Fri. and Sat. and then start for home via <ref target="https://en.wikipedia.org/wiki/Bergen">Bergen</ref>.</p>
                 <pb n="3"></pb>
                 <p>Bull is a nice young man but incompetent - can't quite stand the communists, but finds the socialists too mild.</p><p>I am unhappily wondering<seg ana="http://keywordURL.com" type="keyword"><term>keyword_here</term></seg> what you are feeling about me.</p>
                 <closer>
